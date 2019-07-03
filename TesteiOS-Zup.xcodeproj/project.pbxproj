@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		95550A9F22CCFB77007DE2BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95550A9E22CCFB77007DE2BE /* AppDelegate.swift */; };
 		95550AA122CCFB77007DE2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95550AA022CCFB77007DE2BE /* ViewController.swift */; };
-		95550AA422CCFB77007DE2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95550AA222CCFB77007DE2BE /* Main.storyboard */; };
 		95550AA722CCFB77007DE2BE /* TesteiOS_Zup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95550AA522CCFB77007DE2BE /* TesteiOS_Zup.xcdatamodeld */; };
 		95550AA922CCFB79007DE2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95550AA822CCFB79007DE2BE /* Assets.xcassets */; };
 		95550AAC22CCFB79007DE2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95550AAA22CCFB79007DE2BE /* LaunchScreen.storyboard */; };
@@ -38,7 +37,6 @@
 		95550A9B22CCFB77007DE2BE /* TesteiOS-Zup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TesteiOS-Zup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95550A9E22CCFB77007DE2BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95550AA022CCFB77007DE2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		95550AA322CCFB77007DE2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95550AA622CCFB77007DE2BE /* TesteiOS_Zup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TesteiOS_Zup.xcdatamodel; sourceTree = "<group>"; };
 		95550AA822CCFB79007DE2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95550AAB22CCFB79007DE2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +97,9 @@
 		95550A9D22CCFB77007DE2BE /* TesteiOS-Zup */ = {
 			isa = PBXGroup;
 			children = (
+				95550ACF22CCFE6C007DE2BE /* UIElements */,
 				95550A9E22CCFB77007DE2BE /* AppDelegate.swift */,
 				95550AA022CCFB77007DE2BE /* ViewController.swift */,
-				95550AA222CCFB77007DE2BE /* Main.storyboard */,
 				95550AA822CCFB79007DE2BE /* Assets.xcassets */,
 				95550AAA22CCFB79007DE2BE /* LaunchScreen.storyboard */,
 				95550AAD22CCFB79007DE2BE /* Info.plist */,
@@ -126,6 +124,13 @@
 				95550AC322CCFB79007DE2BE /* Info.plist */,
 			);
 			path = "TesteiOS-ZupUITests";
+			sourceTree = "<group>";
+		};
+		95550ACF22CCFE6C007DE2BE /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +239,6 @@
 			files = (
 				95550AAC22CCFB79007DE2BE /* LaunchScreen.storyboard in Resources */,
 				95550AA922CCFB79007DE2BE /* Assets.xcassets in Resources */,
-				95550AA422CCFB77007DE2BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		95550AA222CCFB77007DE2BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95550AA322CCFB77007DE2BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		95550AAA22CCFB79007DE2BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
