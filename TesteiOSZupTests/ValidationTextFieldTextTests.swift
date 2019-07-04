@@ -1,5 +1,5 @@
 //
-//  TesteiOS_ZupTests.swift
+//  ValidationTextFieldTextTests.swift
 //  TesteiOS-ZupTests
 //
 //  Created by Elton Santana on 03/07/19.
@@ -7,9 +7,9 @@
 //
 
 import XCTest
-@testable import TesteiOS_Zup
+@testable import TesteiOSZup
 
-class TesteiOS_ZupTests: XCTestCase {
+class ValidationTextFieldTextTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,9 +19,16 @@ class TesteiOS_ZupTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+    func testValidationTextFieldInit() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let sut = ValidationTextField(frame: .zero)
+        
+        XCTAssertNotNil(sut.bottonView, "ClearButton nil")
+        XCTAssertNotNil(sut.textField, "TextField nil")
+        XCTAssertNotNil(sut.clearButton, "Button nil")
+        XCTAssertNotNil(sut.titleLabel, "TitleLabel nil")
+
     }
 
     func testPerformanceExample() {
