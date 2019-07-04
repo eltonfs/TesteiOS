@@ -22,7 +22,7 @@ class ValidationTextFieldTextTests: XCTestCase {
     func testValidationTextFieldInit() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let sut = ValidationTextField(frame: .zero)
+        let sut = ValidationTextFieldCell(frame: .zero)
         
         XCTAssertNotNil(sut.bottonView, "ClearButton nil")
         XCTAssertNotNil(sut.textField, "TextField nil")
