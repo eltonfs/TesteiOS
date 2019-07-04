@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Necessary Code to don't use storyboards
         window = UIWindow(frame: UIScreen.main.bounds)
-        let tabViewController = ViewController()
+        let tabViewController = FormViewController()
         window!.rootViewController = tabViewController
         window!.makeKeyAndVisible()
         return true
