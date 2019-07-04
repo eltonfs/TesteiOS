@@ -1,0 +1,6 @@
+framework module Pods_TesteiOSZup {
+  umbrella header "Pods-TesteiOSZup-umbrella.h"
+
+  export *
+  module * { export * }
+}
