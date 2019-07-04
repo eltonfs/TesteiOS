@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabViewController = ViewController()
         window!.rootViewController = tabViewController
         window!.makeKeyAndVisible()
-        
         return true
     }
 
